@@ -1,0 +1,16 @@
+BASE_URL = "https://app3.pertanian.go.id/simluh"
+ENDPOINT_POKTAN = "/rekappetanikec.php"
+
+OUTPUT_FOLDER = "data"
+PROGRESS_FILE = "state/progress.json"
+
+TELEGRAM_ENABLED = False
+TELEGRAM_BOT_TOKEN = "YOUR_TOKEN"
+TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
+
+DELAY_KECAMATAN_MIN = 3
+DELAY_KECAMATAN_MAX = 5
+
+DELAY_KABUPATEN = 30
+
+CSV_ENCODING = "utf-8"
