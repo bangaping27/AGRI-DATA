@@ -22,10 +22,18 @@ Sistem ini didesain sebagai pipeline data yang stabil, *repeatable*, dan *scalab
 Pastikan lingkungan eksekusi memiliki:
 - **Python** versi `≥ 3.10`
 - Memori Server / VM: Minimum `512MB`
-- Package external requirement, instal menggunakan:
-```bash
-pip install -r requirements.txt
-```
+- Sangat disarankan menggunakan Virtual Environment (`.venv`).
+
+**Cara inisialisasi & instalasi dependensi:**
+1. Aktifkan virtual environment (Windows):
+   ```powershell
+   .\.venv\Scripts\activate
+   ```
+   *(Untuk Linux/Mac: `source .venv/bin/activate`)*
+2. Install package external requirement:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## ⚙️ Konfigurasi (`config.py`)
 
